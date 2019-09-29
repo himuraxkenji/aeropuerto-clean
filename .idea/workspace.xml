@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a841860-89b0-42bc-afee-53c185b4bc6e" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/exceptions/AirlineIncompleteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/Airline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/exceptions/CityIncompleteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/City.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AirlineUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AirlineUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AirportUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AirportUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/CityUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/CityUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/target/classes/exceptions/ExceptionPilotIncomplete.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/target/classes/model/Pilot.class" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/target/classes/model/Pilot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/target/test-classes/META-INF/aeropuerto-core.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/target/test-classes/modeloTest/PilotUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/target/test-classes/modeloTest/PilotUnitTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +33,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/aeropuerto-core/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +54,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PilotUnitTest">
+  <component name="RunManager" selected="JUnit.CityUnitTest.factoryCityWhenAttributesAllOks">
+    <configuration name="AirlineUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aeropuerto-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modeloTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modeloTest" />
+      <option name="MAIN_CLASS_NAME" value="modeloTest.AirlineUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AirlineUnitTest.factoryAirlineWhenAtributesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aeropuerto-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modeloTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modeloTest" />
+      <option name="MAIN_CLASS_NAME" value="modeloTest.AirlineUnitTest" />
+      <option name="METHOD_NAME" value="factoryAirlineWhenAtributesIsOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CityUnitTest.factoryCityWhenAttributesAllOks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aeropuerto-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modeloTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modeloTest" />
+      <option name="MAIN_CLASS_NAME" value="modeloTest.CityUnitTest" />
+      <option name="METHOD_NAME" value="factoryCityWhenAttributesAllOks" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PilotUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
@@ -79,21 +129,6 @@
       <option name="MAIN_CLASS_NAME" value="modeloTest.PilotUnitTest" />
       <option name="METHOD_NAME" value="factoryPilotWhenAtributesIsOk" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PilotoUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aeropuerto-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modeloTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modeloTest" />
-      <option name="MAIN_CLASS_NAME" value="modeloTest.PilotoUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,9 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PilotUnitTest" />
-        <item itemvalue="JUnit.PilotoUnitTest" />
+        <item itemvalue="JUnit.CityUnitTest.factoryCityWhenAttributesAllOks" />
+        <item itemvalue="JUnit.AirlineUnitTest" />
         <item itemvalue="JUnit.PilotUnitTest.factoryPilotWhenAtributesIsOk" />
+        <item itemvalue="JUnit.AirlineUnitTest.factoryAirlineWhenAtributesIsOk" />
+        <item itemvalue="JUnit.PilotUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +212,7 @@
       <workItem from="1569788498635" duration="172000" />
       <workItem from="1569788708231" duration="172000" />
       <workItem from="1569790027378" duration="156000" />
-      <workItem from="1569790281165" duration="2258000" />
+      <workItem from="1569790281165" duration="3035000" />
     </task>
     <servers />
   </component>

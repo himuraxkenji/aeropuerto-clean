@@ -1,12 +1,14 @@
 package modeloTest;
 
+import exceptions.CityIncompleteException;
+import model.City;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 public class CityUnitTest {
 
     @Test
-    public void factoryCityWhenAttributesAllOks(){
+    public void factoryCityWhenAttributesAllOks()throws CityIncompleteException {
         City city = City.factoryCity(1, "Tokio", "120-0000");
         Assertions.assertNotNull(city);
     }
