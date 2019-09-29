@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a841860-89b0-42bc-afee-53c185b4bc6e" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/SeatUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/exceptions/SeatIncompleteException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/Seat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AirportUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/SeatUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/SeatUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CityUnitTest.factoryCityWhenAttributesAllOks">
+  <component name="RunManager" selected="JUnit.SeatUnitTest.factorySeatWhenAllAttributesIsOk">
     <configuration name="AirlineUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
@@ -97,21 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PilotUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aeropuerto-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modeloTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modeloTest" />
-      <option name="MAIN_CLASS_NAME" value="modeloTest.PilotUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PilotUnitTest.factoryPilotWhenAtributesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
@@ -123,6 +109,22 @@
       <option name="PACKAGE_NAME" value="modeloTest" />
       <option name="MAIN_CLASS_NAME" value="modeloTest.PilotUnitTest" />
       <option name="METHOD_NAME" value="factoryPilotWhenAtributesIsOk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeatUnitTest.factorySeatWhenAllAttributesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aeropuerto-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modeloTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modeloTest" />
+      <option name="MAIN_CLASS_NAME" value="modeloTest.SeatUnitTest" />
+      <option name="METHOD_NAME" value="factorySeatWhenAllAttributesIsOk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SeatUnitTest.factorySeatWhenAllAttributesIsOk" />
         <item itemvalue="JUnit.CityUnitTest.factoryCityWhenAttributesAllOks" />
         <item itemvalue="JUnit.AirlineUnitTest" />
         <item itemvalue="JUnit.PilotUnitTest.factoryPilotWhenAtributesIsOk" />
         <item itemvalue="JUnit.AirlineUnitTest.factoryAirlineWhenAtributesIsOk" />
-        <item itemvalue="JUnit.PilotUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +209,7 @@
       <workItem from="1569788498635" duration="172000" />
       <workItem from="1569788708231" duration="172000" />
       <workItem from="1569790027378" duration="156000" />
-      <workItem from="1569790281165" duration="3995000" />
+      <workItem from="1569790281165" duration="4510000" />
     </task>
     <servers />
   </component>
