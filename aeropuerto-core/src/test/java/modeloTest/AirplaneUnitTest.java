@@ -1,6 +1,8 @@
 package modeloTest;
 
+import exceptions.AirplaneIncompleteException;
 import exceptions.SeatIncompleteException;
+import model.Airplane;
 import model.Seat;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -42,7 +44,7 @@ public class AirplaneUnitTest {
     }
 
     @Test
-    public void factoryAirplaneWhenOneAttributeIsVoidAndSeatsNotNull() throws SeatIncompleteException {
+    public void factoryAirplaneWhenOneAttributeIsNullAndSeatsNotNull() throws SeatIncompleteException {
         // Arrange
         Seat seat01 = Seat.factorySeat(1,"001");
         List<Seat> seats= new ArrayList<Seat>();
