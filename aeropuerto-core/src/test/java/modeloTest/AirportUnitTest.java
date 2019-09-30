@@ -1,6 +1,8 @@
 package modeloTest;
 
+import exceptions.AirportIncompleteException;
 import exceptions.CityIncompleteException;
+import model.Airport;
 import model.City;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -8,7 +10,7 @@ import org.junit.jupiter.api.Test;
 public class AirportUnitTest {
 
     @Test
-    public void factoryAirportWhenAllAttributesAreOkAndCityComplete()throws AirportIncompleteException{
+    public void factoryAirportWhenAllAttributesAreOkAndCityComplete() throws AirportIncompleteException, CityIncompleteException {
         City city = City.factoryCity(1,"Tokyo",  "120-000");
         Airport airport = Airport.factoryAirport(1, "TokyoFly", city, "TF.T.1");
     }
