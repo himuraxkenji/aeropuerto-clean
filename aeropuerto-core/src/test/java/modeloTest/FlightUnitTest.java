@@ -1,5 +1,6 @@
 package modeloTest;
 
+import exceptions.FlightIncompleteException;
 import model.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,7 @@ import java.util.List;
 public class FlightUnitTest {
 
     @Test
-    public void factoryFlightWhenAllAttributesIsOk() throws FlightIncompleteException{
+    public void factoryFlightWhenAllAttributesIsOk() throws FlightIncompleteException {
 
         //Arrange
 
