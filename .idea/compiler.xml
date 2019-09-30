@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aeropuerto" />
         <module name="aeropuerto-boundaries" />
-        <module name="aeropuerto-core" />
         <module name="aeropuerto-clean" />
+        <module name="aeropuerto-core" />
       </profile>
     </annotationProcessing>
   </component>

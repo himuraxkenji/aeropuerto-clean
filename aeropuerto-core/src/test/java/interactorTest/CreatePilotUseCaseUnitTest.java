@@ -38,6 +38,7 @@ public class CreatePilotUseCaseUnitTest {
         CreatePilotUseCase createPilotUseCase = new CreatePilotUseCase(createPilotGateway);
         Assertions.assertThrows(PilotExistException.class, ()-> {
             createPilotUseCase.createPilot(pilot);
+            //as
         });
 
     }

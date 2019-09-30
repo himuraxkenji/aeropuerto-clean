@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a841860-89b0-42bc-afee-53c185b4bc6e" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/interactorTest/CreatePilotUseCaseUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/FlightUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/FlightUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/target/test-classes/modeloTest/FlightUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/target/test-classes/modeloTest/FlightUnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/interactorTest/CreatePilotUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/interactorTest/CreatePilotUseCaseUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,6 +207,7 @@
       <workItem from="1569790281165" duration="7273000" />
       <workItem from="1569801129317" duration="11157000" />
       <workItem from="1569878418179" duration="2882000" />
+      <workItem from="1569882566384" duration="38000" />
     </task>
     <servers />
   </component>
