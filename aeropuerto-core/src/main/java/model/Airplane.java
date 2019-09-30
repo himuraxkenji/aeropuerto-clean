@@ -10,7 +10,7 @@ public class Airplane {
     private String plate;
     private List<Seat> seats;
 
-    public Airplane(Integer id, String model, String plate, List<Seat> seats) {
+    private Airplane(Integer id, String model, String plate, List<Seat> seats) {
         this.id = id;
         this.model = model;
         this.plate = plate;

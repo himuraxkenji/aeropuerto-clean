@@ -9,7 +9,7 @@ public class Airport {
     private final City city;
     private final String code;
 
-    public Airport(Integer id, String name, City city, String code) {
+    private Airport(Integer id, String name, City city, String code) {
         this.id = id;
         this.name = name;
         this.city = city;

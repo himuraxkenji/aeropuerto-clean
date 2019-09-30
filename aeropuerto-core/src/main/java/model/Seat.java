@@ -8,7 +8,7 @@ public class Seat {
     private Integer id;
     private String numberSeat;
 
-    public Seat(Integer id, String numberSeat) {
+    private Seat(Integer id, String numberSeat) {
         this.id = id;
         this.numberSeat = numberSeat;
     }
