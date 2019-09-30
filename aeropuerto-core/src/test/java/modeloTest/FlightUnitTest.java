@@ -45,6 +45,7 @@ public class FlightUnitTest {
 
             pilotOne = Pilot.factoryPilot(1, "Kakashi", "Sasuke","38.465.697", LocalDate.of(1971,02,10));
             pilotTwo = Pilot.factoryPilot(2, "Tomode", "Takada","36.545.767", LocalDate.of(1970,02,10));
+            pilots = new ArrayList<Pilot>();
             pilots.add(pilotOne);
             pilots.add(pilotTwo);
 
@@ -56,6 +57,7 @@ public class FlightUnitTest {
 
             passagerOne = Passager.factoryPassager(1, "20-39.654.123-7", "Tekada", "Motesuma", "12-654");
             passagerTwo = Passager.factoryPassager(2, "20-38.246.953-2", "Madoka", "Homura", "92-675");
+            passagers = new ArrayList<Passager>();
             passagers.add(passagerOne);
             passagers.add(passagerTwo);
 
