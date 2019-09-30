@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a841860-89b0-42bc-afee-53c185b4bc6e" name="Default Changelist" comment="Test">
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/exceptions/AllocationIncompleteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/Allocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/FlightUnitTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AllocationUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/modeloTest/AllocationUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -208,7 +206,7 @@
       <workItem from="1569788708231" duration="172000" />
       <workItem from="1569790027378" duration="156000" />
       <workItem from="1569790281165" duration="7273000" />
-      <workItem from="1569801129317" duration="7557000" />
+      <workItem from="1569801129317" duration="10441000" />
     </task>
     <servers />
   </component>
