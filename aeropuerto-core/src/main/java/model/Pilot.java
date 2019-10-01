@@ -40,4 +40,7 @@ public class Pilot {
     }
 
 
+    public String getDni() {
+        return this.dni;
+    }
 }

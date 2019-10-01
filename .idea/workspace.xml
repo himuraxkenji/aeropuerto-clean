@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a841860-89b0-42bc-afee-53c185b4bc6e" name="Default Changelist" comment="Test">
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/exceptions/PilotExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/interactor/CreatePilotUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/interactor/IRepositoryCreatePilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/Pilot.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/main/java/model/Pilot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aeropuerto-core/src/test/java/interactorTest/CreatePilotUseCaseUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/aeropuerto-core/src/test/java/interactorTest/CreatePilotUseCaseUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -33,8 +38,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="model" />
+      <recent name="interactor" />
       <recent name="exceptions" />
+      <recent name="model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,22 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.modeloTest in aeropuerto-core">
-    <configuration name="AllocationUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="aeropuerto-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modeloTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modeloTest" />
-      <option name="MAIN_CLASS_NAME" value="modeloTest.AllocationUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CreatePilotUseCaseUnitTest">
     <configuration name="CityUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
@@ -80,33 +71,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlightUnitTest.factoryFlightWhenAllAttributesIsOk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatePilotUseCaseUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modeloTest.*" />
+          <option name="PATTERN" value="interactorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="modeloTest" />
-      <option name="MAIN_CLASS_NAME" value="modeloTest.FlightUnitTest" />
-      <option name="METHOD_NAME" value="factoryFlightWhenAllAttributesIsOk" />
+      <option name="PACKAGE_NAME" value="interactorTest" />
+      <option name="MAIN_CLASS_NAME" value="interactorTest.CreatePilotUseCaseUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreatePilotUseCaseUnitTest.createPilotWhenThenExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="aeropuerto-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interactorTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="interactorTest" />
+      <option name="MAIN_CLASS_NAME" value="interactorTest.CreatePilotUseCaseUnitTest" />
+      <option name="METHOD_NAME" value="createPilotWhenThenExist" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PassengerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreatePilotUseCaseUnitTest.createPilotWhenThenNoExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="aeropuerto-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="modeloTest.*" />
+          <option name="PATTERN" value="interactorTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="modeloTest" />
-      <option name="MAIN_CLASS_NAME" value="modeloTest.PassengerUnitTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="interactorTest" />
+      <option name="MAIN_CLASS_NAME" value="interactorTest.CreatePilotUseCaseUnitTest" />
+      <option name="METHOD_NAME" value="createPilotWhenThenNoExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -181,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CreatePilotUseCaseUnitTest" />
+        <item itemvalue="JUnit.CreatePilotUseCaseUnitTest.createPilotWhenThenNoExist" />
+        <item itemvalue="JUnit.CreatePilotUseCaseUnitTest.createPilotWhenThenExist" />
         <item itemvalue="JUnit.modeloTest in aeropuerto-core" />
         <item itemvalue="JUnit.CityUnitTest" />
-        <item itemvalue="JUnit.FlightUnitTest.factoryFlightWhenAllAttributesIsOk" />
-        <item itemvalue="JUnit.AllocationUnitTest" />
-        <item itemvalue="JUnit.PassengerUnitTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +214,8 @@
       <workItem from="1569790281165" duration="7273000" />
       <workItem from="1569801129317" duration="11157000" />
       <workItem from="1569878418179" duration="2882000" />
-      <workItem from="1569882566384" duration="38000" />
+      <workItem from="1569882566384" duration="1008000" />
+      <workItem from="1569890739511" duration="2956000" />
     </task>
     <servers />
   </component>

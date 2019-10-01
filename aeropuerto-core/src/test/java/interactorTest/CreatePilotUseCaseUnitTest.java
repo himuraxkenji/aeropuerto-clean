@@ -1,6 +1,9 @@
 package interactorTest;
 
+import exceptions.PilotExistException;
 import exceptions.PilotIncompleteException;
+import interactor.CreatePilotUseCase;
+import interactor.IRepositoryCreatePilot;
 import mockito.MockitoExtension;
 import model.Pilot;
 import org.junit.jupiter.api.Assertions;
@@ -22,6 +25,7 @@ public class CreatePilotUseCaseUnitTest {
 
         Pilot pilot = Pilot.factoryPilot(1,"Takeda", "Himura", "38.681.666", LocalDate.of(1994, 2,10));
         Mockito.when(createPilotGateway.save(pilot)).thenReturn(true);
+        Mockito.when(createPilotGateway.findByDni("39.681.666")).thenReturn(null);
 
         CreatePilotUseCase createPilotUseCase = new CreatePilotUseCase(createPilotGateway);
         boolean result = createPilotUseCase.createPilot(pilot);
@@ -33,13 +37,10 @@ public class CreatePilotUseCaseUnitTest {
     public void createPilotWhenThenExist()throws PilotIncompleteException {
 
         Pilot pilot = Pilot.factoryPilot(1,"Takeda", "Himura", "38.681.666", LocalDate.of(1994, 2,10));
-        Mockito.when(createPilotGateway.findByDni("39.681.666")).thenReturn(Pilot.factoryPilot(1,"Takeda", "Himura", "38.681.666", LocalDate.of(1994, 2,10)));
+        Mockito.when(createPilotGateway.findByDni("38.681.666")).thenReturn(Pilot.factoryPilot(2,"Jekada", "Tukada", "38.681.666", LocalDate.of(1994, 2,10)));
 
         CreatePilotUseCase createPilotUseCase = new CreatePilotUseCase(createPilotGateway);
-        Assertions.assertThrows(PilotExistException.class, ()-> {
-            createPilotUseCase.createPilot(pilot);
-            //as
-        });
+        Assertions.assertThrows(PilotExistException.class, ()-> createPilotUseCase.createPilot(pilot));
 
     }
 }
