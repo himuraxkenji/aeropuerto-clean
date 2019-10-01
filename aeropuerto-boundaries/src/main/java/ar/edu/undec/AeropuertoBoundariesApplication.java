@@ -1,4 +1,4 @@
-package ar.edu.undec.aeropuertoboundaries;
+package ar.edu.undec;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -43,4 +43,20 @@ public class Pilot {
     public String getDni() {
         return this.dni;
     }
+
+    public Integer getId() {
+        return this.id;
+    }
+
+    public String getFirstName() {
+        return this.firstName;
+    }
+
+    public String getLastName() {
+        return this.lastName;
+    }
+
+    public LocalDate getDateOfBirth() {
+        return this.dateOfBirth;
+    }
 }

@@ -1,6 +1,8 @@
 package interactorTest;
 
 import exceptions.PilotIncompleteException;
+import exceptions.PilotNotFoundException;
+import interactor.UpdatePilotUseCase;
 import mockito.MockitoExtension;
 import model.Pilot;
 import org.junit.jupiter.api.Assertions;
@@ -8,6 +10,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+import repository.IRepositoryUpdatePilot;
 
 import java.time.LocalDate;
 
@@ -18,7 +21,7 @@ public class UpdatePilotUseCaseUnitTest {
     IRepositoryUpdatePilot updatePilot;
 
     @Test()
-    public void updatePilotWhenAllAttributesAreOk() throws PilotIncompleteException,  PilotNotFoundException  {
+    public void updatePilotWhenAllAttributesAreOk() throws PilotIncompleteException, PilotNotFoundException {
         Pilot pilot = Pilot.factoryPilot(1,"Takeda", "Himura", "38.681.666", LocalDate.of(1994, 2,10));
         Pilot updated = Pilot.factoryPilot(1,"Tanaka", "Kamura", "38.681.666", LocalDate.of(1994, 2,10));
 
@@ -34,7 +37,7 @@ public class UpdatePilotUseCaseUnitTest {
     }
 
     @Test()
-    public void updatePilotWhenNotFoundPilot() throws PilotNotFoundException {
+    public void updatePilotWhenNotFoundPilot() throws PilotIncompleteException  {
         Pilot pilot = Pilot.factoryPilot(1,"Takeda", "Himura", "38.681.666", LocalDate.of(1994, 2,10));
         Pilot updated = Pilot.factoryPilot(1,"Tanaka", "Kamura", "38.681.666", LocalDate.of(1994, 2,10));
 
