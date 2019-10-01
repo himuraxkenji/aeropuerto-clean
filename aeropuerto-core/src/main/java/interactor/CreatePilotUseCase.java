@@ -2,6 +2,7 @@ package interactor;
 
 import exceptions.PilotExistException;
 import model.Pilot;
+import repository.IRepositoryCreatePilot;
 
 public class CreatePilotUseCase {
 

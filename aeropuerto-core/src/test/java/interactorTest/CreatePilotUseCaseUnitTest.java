@@ -3,7 +3,7 @@ package interactorTest;
 import exceptions.PilotExistException;
 import exceptions.PilotIncompleteException;
 import interactor.CreatePilotUseCase;
-import interactor.IRepositoryCreatePilot;
+import repository.IRepositoryCreatePilot;
 import mockito.MockitoExtension;
 import model.Pilot;
 import org.junit.jupiter.api.Assertions;
